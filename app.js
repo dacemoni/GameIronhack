@@ -79,10 +79,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if(optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute('src', 'images/blank.png')
       cards[optionTwoId].setAttribute('src', 'images/blank.png')
-      alert('Has seleccionado la misma carta, vuelve a intentarlo')
+      alert(' Has seleccionado la misma carta, vuelve a intentarlo')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('!Enhorabuena, has encontrado una pareja!')
+      alert(' !Enhorabuena, has encontrado una pareja!')
       cards[optionOneId].setAttribute('src', 'images/white.png')
       cards[optionTwoId].setAttribute('src', 'images/white.png')
       cards[optionOneId].removeEventListener('click', flipCard)
@@ -91,13 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png')
       cards[optionTwoId].setAttribute('src', 'images/blank.png')
-      alert('Sorry, try again')
+      alert(' Sorry, try again')
     }
     cardsChosen = []
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
-      resultDisplay.textContent = '!Felicidades, has encontrado todas las parejas!'
+      resultDisplay.textContent = ' !Felicidades, has encontrado todas las parejas!'
 
     }
   }

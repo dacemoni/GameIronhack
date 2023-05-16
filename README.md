@@ -3,7 +3,9 @@ Un juego retro basado en grid en JavaScript, HTML y CSS
 
 Juego realizado por: David César Moro Nieto
 
-Repositorio ubicado en: 
+Repositorio ubicado en: https://github.com/dacemoni/GameIronhack
+
+Juego desplegado en GitHub Pages: https://dacemoni.github.io/GameIronhack/
 
 El Juego de Memoria, también conocido como Juego de Parejas, es un juego de cartas simple en el que necesitas emparejar cartas volteando dos cartas a la vez.
 
